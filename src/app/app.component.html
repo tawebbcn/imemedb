@@ -46,6 +46,7 @@
       <h2>{{meme.lineOne}}</h2>
       <h3>{{meme.lineTwo}}</h3>
       <img [src]="imgs[meme.category]">
+      <button (click)="handleDeleteClick(meme._id)">Delete</button>
     </li>
   </ul>
 
